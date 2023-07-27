@@ -1,0 +1,503 @@
+ .titulo{
+   margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.titulo2{
+  margin-top: 40px;
+   margin-bottom: 10px;
+   margin-left: 20px;
+   margin-right: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+    /* Estilos para o banner */
+
+    .area-slider{
+      width: 100%;
+      max-width: 100%; /* Defina a largura máxima desejada para o carrossel */
+      margin: 10 auto;
+    }
+
+    .slider img {
+      width: 60%;
+      max-width: 100%; /* Defina a largura máxima da imagem como 100% do contêiner */
+      max-height: 100%;
+      margin: auto;
+      object-fit: contain;
+    }
+
+    .slick-next{
+      margin-right: 100px;
+    }
+
+    .slick-prev{
+      margin-left: 100px;
+      z-index: 1;
+    }
+/*-------------------------------------------------------------------------------------------------------------------------*/
+    /* Estilos para os blocos */
+
+          /* blocos id="aluguel" */
+    .pais1 {
+
+        padding: 20px;
+        background-color: #e2e2e2;
+      }
+
+          /* blocos id="quem-somos" */
+    .pais2 {
+      
+      padding: 50px;
+      background-color: #f9f9f9;
+      }
+
+          /* blocos id="cliente" */
+    .pais3 {
+      
+      padding: 50px;
+      background-color: #dad8d8;
+      }
+
+
+          /* blocos id="local" */
+    .pais4 {
+      
+      padding: 50px;
+      background-color: #e2e2e2;
+      }
+
+            /* blocos id="contato" */
+      .pais5 {
+      
+        padding: 50px;
+        background-color: #f9f9f9;
+        }
+
+      .banner-horizontal {
+        position: relative;
+      }
+      
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+    /* conteudo no pais 1 id="aluguel"*/
+
+    .product-carousel {
+      position: relative;
+      /* Estilo da sua vitrine de produtos */
+    }
+
+    .texto-aluguel h2 {
+      text-align: center;
+      font-size: 30px;
+      color: #000000;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    .texto-aluguel a {
+      color: #000000;
+      text-decoration: none;
+    }
+    
+    .texto-aluguel a:hover {
+      text-decoration: underline;
+    }
+
+    .texto-aluguel p {
+      text-align: center;
+      font-size: 20px;
+      color: #000000;
+      font-weight: bold;
+    }
+
+    .shop {
+      padding: 30px;
+      display: flex; /* faz com que os produtos sejam exibidos em uma linha */
+      overflow-x: hidden; /* ocultam as barras de rolagem horizontal */
+      overflow-y: hidden; /* ocultam as barras de rolagem vertical */
+      scroll-snap-type: x mandatory; /* cria um efeito de rolagem suave e alinhamento dos produtos. */
+    }
+    
+    .produto {
+      flex: 0 0 auto; /* permite que os produtos se ajustem ao espaço disponível na linha, mas não sejam redimensionados */
+      width: 360px; /* define a largura fixa de cada produto. */
+      scroll-snap-align: center; /* "start" alinha cada produto ao início do contêiner */
+      margin-right: 20px; /* adiciona um espaçamento entre os produtos */
+    }
+    
+    .produto-container {
+      background-color: #f0f0f0; /* Cor do quadrado de destaque */
+      padding: 10px; /* Espaçamento interno do quadrado de destaque */
+      margin-bottom: 50px; /* Espaçamento inferior entre os produtos */
+    }
+    
+    .produto-image {
+      background-color: #fff; /* Cor do quadrado de destaque da imagem do produto */
+      padding: 20px; /* Espaçamento interno do quadrado de destaque da imagem do produto */
+      margin-bottom: 10px; /* Espaçamento inferior entre a imagem do produto e a descrição */
+    }
+    
+    .produto-descricao {
+      background-color: #fff; /* Cor do quadrado de destaque da descrição do produto */
+      padding: 20px; /* Espaçamento interno do quadrado de destaque da descrição do produto */
+      margin-bottom: 23px;
+    }
+
+    .thumbnail {
+      position: relative; /* posiciona o elemento em relação ao seu fluxo normal no documento. */
+    }
+    
+    .buttons {
+      position: absolute; /* posiciona os botões de forma absoluta em relação ao seu elemento pai. */
+      bottom: 15px; /* define uma distância de 10 pixels entre o fundo do elemento pai e os botões. */
+      left: 0; /* estabelecem que os botões devem estar alinhados nas extremidades esquerda do elemento pai. */
+      right: 0; /* estabelecem que os botões devem estar alinhados nas extremidades direita do elemento pai. */
+      display: flex; /* alinham os botões emparelhados */
+      justify-content: space-between; /* distribuem o espaço disponível igualmente entre eles */
+    }
+    
+    .btn {
+      padding: 5px 16px; /* define um espaçamento interno de 8 pixels no topo e na parte inferior e 16 pixels nas laterais do botão */
+      background-color: #000; /* define a cor de fundo do botão como preto. */
+      color: #fff; /* define a cor do texto do botão como branco. */
+      border: none; /* remove a borda do botão. */
+      cursor: pointer; /* altera o cursor do mouse para um ponteiro ao passar sobre o botão, indicando que ele é clicável. */
+    }
+
+    .caption {
+      display: flex;
+      justify-content: center; /* Distribui o espaço disponível igualmente entre os botões */
+    }
+
+    .btn-primeiro {
+      background-color: #f00;
+      border-radius: 20px; /* Defina um valor alto para tornar o botão retângulo mais ovalado */
+      margin-right: 50px; /* Ajuste o espaçamento entre o primeiro botão e o segundo botão */
+}
+    
+    .btn-segundo {
+      background-color: #00f;
+      border-radius: 20px; /* Defina um valor alto para tornar o botão retângulo mais ovalado */
+      margin-left: 10px; /* Ajuste o espaçamento entre o segundo botão e o primeiro botão */
+}
+
+/*estilização dos botoes do aluguel (previous, next)*/
+    #slick-prev-shop{
+      left: -4px; /* Ajuste a margem esquerda da seta "previous" */
+      margin-left: 1px; /* Adicione uma margem negativa na metade da largura para centralizar horizontalmente */
+    }
+
+    #slick-next-shop {
+      right: 30px; /* Ajuste a margem direita da seta "next" */
+      margin-right: -12px; /* Adicione uma margem negativa na metade da largura para centralizar horizontalmente */
+    }
+
+    .btn-terceiro {
+      background-color: rgb(58, 37, 223);
+      display: block; /* Garante que o botão ocupe toda a largura disponível no div */
+      margin: 0 auto; /* Centraliza o botão horizontalmente */
+      text-align: center; /* Centraliza o texto do botão horizontalmente */
+      width: 200px; /* Defina a largura desejada para o botão */
+      border-radius: 20px; /* Defina um valor alto para tornar o botão retângulo mais ovalado */
+    }
+
+
+   
+/*-------------------------------------------------------------------------------------------------------------------------*/
+    /* efeito Parallax  e conteudo no pais 2 id="quem-somos"*/
+    .titulo-quemsomos{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .parallax-quemsomos {
+      background-image: url(/logo/LOGO_OFICIAL.jpg);
+      background-position: center left;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      color: #ffffff;
+      height: 50vh; /* Define a altura do contêiner parallax como 50% da altura da viewport */
+      max-width: 800px; /* Define uma largura máxima para o parallax */
+      margin-left: auto;
+      margin-right: auto; /* Centralizar o parallax horizontalmente */
+      overflow-x: clip; /* O tamanho das imagens irá criar uma barra de rolagem horizontal. "cortado" (clipado), ou seja, ele será 
+      oculto e não será exibido além dos limites do contêiner. */
+    }
+  
+    /*texto tendro do retangulo*/
+    .texto-quemsomos {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: justify;
+      font-size: 20px;
+      color: #ffffff;
+      width: 80%; /* Ajuste a largura do texto conforme necessário */
+      max-width: 800px; /* Defina um valor máximo para a largura do texto */
+    }
+
+    .texto-quemsomos h3 {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      text-align: center;
+      font-size: 25px; /* Ajuste o valor do tamanho da fonte conforme necessário */
+    }
+    
+    /*Retangulo onde vai o texto e os 2 botoes*/
+    .quadrado-quemsomos {
+      margin-bottom: auto;
+      padding: 30px;
+      position: relative;
+      left: 50%;
+      top: 50%;
+      transform: translate(-83%, -160%);
+      width: 60%;
+      height: 150px;
+      background-color: rgba(70, 70, 70, 0.89);
+      display: flex;
+      flex-direction: column; /* Os elementos filhos serão organizados em coluna */
+      align-items: center; /* Alinha os elementos filhos horizontalmente no centro */
+      justify-content: center; /* Alinha os elementos filhos verticalmente no centro */
+      border-radius: 100px; /* Defina um valor alto para tornar o botão retângulo mais ovalado */
+    }
+
+    
+    /*estilização dos botoes*/
+    .botoes-quemsomos {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      
+    }
+      
+    .botao {
+      font-size: 15px; /* Ajuste o valor do tamanho da fonte conforme necessário */
+      cursor: pointer; /* altera o cursor do mouse para um ponteiro ao passar sobre o botão, indicando que ele é clicável. */
+      border-radius: 90px; /* Defina um valor alto para tornar o botão retângulo mais ovalado */
+      margin: 0 6px; /* Ajuste a margem horizontal dos botões conforme necessário */
+      background-color: rgba(230, 229, 185, 0.89); /* Cor de fundo do retângulo */
+      color: #000000;
+      border: none;
+      padding: 8px 30px;
+      position: relative;
+      z-index: 1;
+      
+    }
+    
+    .botao:hover {
+      background-color: #bfbfbf; /* Cor de fundo do retângulo ao passar o mouse */
+    }
+    
+    .botao:focus {
+      outline: none;
+    }
+
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*conteudo pais 3 id="cliente" */
+
+.texto-cliente{
+  text-align: center;
+ /* Ajuste o valor do tamanho da fonte conforme necessário */
+  margin-bottom: 20px;
+}
+
+.galeria-cliente {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.cliente {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adicione a sombra nas logos */
+  border-radius: 5px; /* Adicione bordas arredondadas */
+  overflow: hidden; /* Esconda partes da logo que ultrapassem o contêiner */
+}
+
+.cliente-image img {
+  width: 100%;
+  height: auto;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 16px;
+  color: #555;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+    /*conteudo pais 4 id="local" */
+
+    .texto-local{
+      text-align: center;
+      font-size: 20px; /* Ajuste o valor do tamanho da fonte conforme necessário */
+      margin-bottom: 5px;
+    }
+
+    .contener-local {
+      display: flex;
+      flex-direction: row; /* Organiza os elementos em linha */
+      align-items: center; /* Alinha os elementos verticalmente no centro */
+      justify-content: space-between; /* Distribui o espaço disponível igualmente entre os elementos */
+      flex-wrap: wrap; /* Permite que os elementos sejam quebrados em linhas adicionais, se necessário */
+      margin-bottom: 30px; /* Adiciona espaçamento inferior para separar de outros elementos */
+    }
+    
+    .mapa {
+      flex: 1; /* Ocupa o espaço disponível na linha */
+      width: 80%; /* Define a largura do mapa para ocupar 80% do contêiner */
+      max-width: 800px; /* Define a largura máxima do mapa */
+      height: 470px; /* Defina a altura do mapa conforme necessário */
+      margin-top: 30px; /* Ajuste o espaçamento superior conforme necessário */
+      margin-left: 60px; /* Adiciona espaçamento à esquerda para criar espaço entre o parallax e o mapa */
+    }
+    
+    .parallax-local {
+      flex: 1; /* Ocupa o espaço disponível na linha */
+      background-image: url(/logo/LOGO_OFICIAL.jpg);
+      background-position: center left;
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: #ffffff;
+      height: 50vh; /* Define a altura do contêiner parallax como 50% da altura da viewport */
+      max-width: 800px;
+      margin-top: 50px;
+      /* Adicione uma margem esquerda para evitar a sobreposição com o mapa */
+      margin-right: -30px;
+    }
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+    /*conteudo pais 5 id="contato" */
+
+/* Cria uma div para dividir o layout em duas colunas */
+.conteudo-contato {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+}
+
+/* Estilos para o formulário de contato à esquerda */
+.contato-form {
+  flex: 1;
+  max-width: 400px; /* Ajuste a largura do formulário conforme necessário */
+}
+
+/* Estilos para as informações de contato à direita */
+.informacoes-contato {
+  flex: 1;
+  max-width: 400px; /* Ajuste a largura das informações conforme necessário */
+}
+
+/* Estilos para os campos do formulário */
+.campo-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+/* Estilos para os rótulos do formulário */
+.campo-form label {
+  font-weight: bold;
+}
+
+/* Estilos para o título "Entre em Contato" */
+.texto-contato1 {
+  text-align: center;
+  font-size: 30px;
+  color: #555;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Estilos para o título "Entre em Contato" */
+.texto-contato {
+  font-size: 24px;
+  color: #555;
+  font-weight: bold;
+}
+
+/* Estilos para o título "Mais Informações" */
+.texto-contato-mais {
+  font-size: 20px;
+  color: #555;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Estilos para o link de "Mais Informações" */
+.texto-contato-mais a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.texto-contato-mais a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para o botão "Enviar" */
+button[type="submit"] {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.midia-contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.midia-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.midia-icons a {
+  margin-right: 20px;
+}
+
+/* Estilos para o título "Siga-nos Nas Redes Sociais" */
+.texto-contato-midia {
+  text-align: center;
+  font-size: 30px;
+  color: #555;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Estilos para as imagens dos ícones de redes sociais */
+.midia-contato img {
+  width: 50px; /* Defina a largura desejada */
+  height: 50px; /* Defina a altura desejada */
+}

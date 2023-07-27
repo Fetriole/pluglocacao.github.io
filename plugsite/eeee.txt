@@ -1,0 +1,93 @@
+Site Plug Locação
+
+Cores:
+60% Azul Escuro
+30% Amarelo
+10% Branco
+
+Fonte:
+Futura
+
+Home:
+Cabeçalho: 
+-Logo 
+-Menu com âncoras
+	Início
+	Alugue (Shop)
+	Quem Somos -  ncora 1
+	Contatos -  ncora 2
+
+Corpo:
+Banner Horizontal 
+Aluguel de equipamentos para eventos empresariais.
+Há mais de 20 anos entregando e instalando todos os equipamentos que você precisa.
+
+Produtos mais alugados:
+6 Principais produtos (Ao clicar vai para página do produto /paginadoproduto )
+Botão: Ver mais produtos. (SHOP) Botão: Entrar em contato. ( ncora 2)
+TXT: Mais de mil” produtos disponíveis a pronta entrega.
+
+
+Bloco: Posicionar  ncora 1
+Imagem a Esquerda
+A direita:
+Título: Somos Plug Locações
+TXT: Quem está por trás dos nossos serviços? Somos uma empresa familiar com mais de 20 anos de mercado, estamos sempre prontos para garantir que você tenha a melhor experiência de aluguel de equipamentos eletrônicos! Nosso galpão fica em Goiânia, no Setor Pedro Ludovico, venha nos conhecer, ou fale conosco e levamos soluções em aluguel de tecnologia até você.
+Botão: Entrar em contato. ( ncora 2) Botão: Saber Mais - Página sobre nós 
+
+Bloco: 
+Titulo: Principais Clientes
+Logos dos maiores clientes.
+
+Bloco: 
+Titulo: Conheça nossa sede.
+Google Maps a Esquerda
+Foto do galpão e equipe a direita
+
+Bloco: Contato Posicionar âncora 2
+Título: Fale diretamente no Whatsapp:
+Botão WhatsApp
+
+
+Conheça nossas redes sociais: (Botões)
+Facebook
+Instagram
+
+Título: Orçamentos especiais:
+Posicionar  ncora 3 - Formulário:
+Nome:
+Email:
+Telefone:
+
+Rodapé
+
+Logo Horizontal
+
+Colunas:
+-Plug Locações
+	Início
+	Aluguel
+	Quem Somos
+
+-Produtos (Leva pra página de produtos do shop)
+	Computadores
+	Tablets	
+	Impressoras
+	Notebooks
+	Totens
+	Celulares
+	Televisores
+
+
+-Fale Conosco
+	Orçamentos especiais ( ncora 3 - Formulário)
+	Whatsapp
+	Instagram
+	Facebook
+
+No mercado desde X
+CNPJ:
+Telefone
+Endereço
+Email
+	
