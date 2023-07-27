@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Minha Landing Page</title>
+  <style>
+    /* Estilos gerais */
+    body {
+      background-color: rgb(0, 0, 0);
+      margin-top: 30px;
+    }
+    .rectangle {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100px; /* Defina a altura desejada para o retângulo */
+}
+
+    /* Estilos para os blocos */
+    .block {
+      padding: 50px;
+      background-color: #f9f9f9;
+    }
+
+    /* Estilos para a logo */
+    .logo {
+      display: inline-block;
+      margin-left: 35px;
+      margin-top: -20px;
+    }
+
+    .logo img {
+      height: 90px;
+    }
+
+    /* Estilos para os menus */
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: -60px;
+    }
+
+    nav li a {
+      font-size: larger medium;
+      font-family: 'Bacasime Antique';
+      color: black;
+      display: block;
+      padding: 10px;
+      text-decoration: none;
+    }
+
+    nav ul li:hover {
+      box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 100px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.9);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      font-family: 'Bacasime Antique';
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    /* Estilos para o menu responsivo */
+    #menu-toggle {
+      display: none;
+    }
+
+    .menu-icon {
+      display: none;
+      font-size: larger;
+      cursor: pointer;
+    }
+
+    .menu-icon-container {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      margin-right: 20px;
+      margin-top: -50px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .menu-icon {
+        display: block;
+      }
+
+      nav ul {
+        display: none;
+      }
+
+      #menu-toggle:checked ~ ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-right: 60px;
+        margin-bottom: 90px;
+      }
+
+      #menu-toggle:checked ~ ul li {
+        margin: 30px;
+        margin-left: 90px;
+        margin-bottom: -26px;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <img src="logo.png" alt="Logo da empresa">
+    </div>
+    <ul class="menu">
+      <li><a href="#quem-somos">Quem Somos</a></li>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <div id="quem-somos" class="block">
+    <h2>Quem Somos</h2>
+    <p>Aqui você pode adicionar informações sobre a sua empresa, sua missão, valores e história.</p>
+  </div>
+
+  <div id="servicos" class="block">
+    <h2>Serviços</h2>
+    <p>Apresente os serviços que você oferece e destaque os benefícios de cada um deles.</p>
+  </div>
+
+  <div id="contato" class="block">
+    <h2>Contato</h2>
+    <p>Inclua informações de contato, como telefone, e-mail ou formulário de contato, para que os visitantes possam entrar em contato com você.</p>
+  </div>
+  <div class="product-carousel">
+    <div class="previous-button">&#8249;</div>
+
+        <div class="shop">
+            <div class="produto 1">
+              <div class="produto-container">
+                <div class="thumbnail">
+                  <div class="produto-image">
+                    <img src="/logo/LOGO PLUG 2022.png" alt="...">
+                  </div>
+                  <div class="descrisao-produto">
+                    <div class="produto-descricao">
+                      <p>Descrição do produto</p>
+                    </div>
+                    <div class="caption text-center">
+                      <a href=""></a>
+                      <p><a href="#" class="btn btn-primeiro" role="button">Ver Mais</a></p>
+                      <p><a href="#" class="btn btn-segundo" role="button">Alugar</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="produto 2">
+              <div class="produto-container">
+                <div class="thumbnail">
+                  <div class="produto-image">
+                    <img src="/logo/LOGO PLUG 2022.png" alt="...">
+                  </div>
+                  <div class="descrisao-produto">
+                    <div class="produto-descricao">
+                      <p>Descrição do produto</p>
+                    </div>
+                    <div class="caption text-center">
+                      <a href=""></a>
+                      <p><a href="#" class="btn btn-primeiro" role="button">Ver Mais</a></p>
+                      <p><a href="#" class="btn btn-segundo" role="button">Alugar</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="produto 3">
+              <div class="produto-container">
+                <div class="thumbnail">
+                  <div class="produto-image">
+                    <img src="/logo/LOGO PLUG 2022.png" alt="...">
+                  </div>
+                  <div class="descrisao-produto">
+                    <div class="produto-descricao">
+                      <p>Descrição do produto</p>
+                    </div>
+                    <div class="caption text-center">
+                      <a href=""></a>
+                      <p><a href="#" class="btn btn-primeiro" role="button">Ver Mais</a></p>
+                      <p><a href="#" class="btn btn-segundo" role="button">Alugar</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="produto 4">
+              <div class="produto-container">
+                <div class="thumbnail">
+                  <div class="produto-image">
+                    <img src="/logo/LOGO PLUG 2022.png" alt="...">
+                  </div>
+                  <div class="descrisao-produto">
+                    <div class="produto-descricao">
+                      <p>Descrição do produto</p>
+                    </div>
+                    <div class="caption text-center">
+                      <a href=""></a>
+                      <p><a href="#" class="btn btn-primeiro" role="button">Ver Mais</a></p>
+                      <p><a href="#" class="btn btn-segundo" role="button">Alugar</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="produto 5">
+              <div class="produto-container">
+                <div class="thumbnail">
+                  <div class="produto-image">
+                    <img src="/logo/LOGO PLUG 2022.png" alt="...">
+                  </div>
+                  <div class="descrisao-produto">
+                    <div class="produto-descricao">
+                      <p>Descrição do produto</p>
+                    </div>
+                    <div class="caption text-center">
+                      <a href=""></a>
+                      <p><a href="#" class="btn btn-primeiro" role="button">Ver Mais</a></p>
+                      <p><a href="#" class="btn btn-segundo" role="button">Alugar</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="produto 6">
+              <div class="produto-container">
+                <div class="thumbnail">
+                  <div class="produto-image">
+                    <img src="/logo/LOGO PLUG 2022.png" alt="...">
+                  </div>
+                  <div class="descrisao-produto">
+                    <div class="produto-descricao">
+                      <p>Descrição do produto</p>
+                    </div>
+                    <div class="caption text-center">
+                      <a href=""></a>
+                      <p><a href="#" class="btn btn-primeiro" role="button">Ver Mais</a></p>
+                      <p><a href="#" class="btn btn-segundo" role="button">Alugar</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>  
+
+            <div class="next-button">&#8250;</div>
+          </div>
+        </div>
+      
+          <p><a href="produtos.html" class="btn btn-terceiro" role="button">Mais produtos</a></p>
+  </div>
+  <!-- Adicione o caminho correto para o arquivo da imagem da logo -->
+  <script src="caminho/para/o/arquivo/logo.js"></script>
+</body>
+</html>
